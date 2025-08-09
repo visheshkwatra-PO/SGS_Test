@@ -1,0 +1,53 @@
+/* Brand Colors */
+.bg-teal {
+    background-color: #008080 !important;
+}
+.bg-orange {
+    background-color: #ff6600 !important;
+}
+.text-orange {
+    color: #ff6600 !important;
+}
+
+/* Navbar */
+.navbar .nav-link {
+    color: white !important;
+    transition: color 0.3s;
+}
+.navbar .nav-link:hover {
+    color: #ffcc99 !important;
+}
+
+/* Dropdown */
+.dropdown-menu {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
+.dropdown-menu .dropdown-item {
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+}
+.dropdown-menu .dropdown-item:hover {
+    background-color: #ff6600;
+    color: white;
+}
+
+/* Submenu */
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #008080, #ff6600);
+}
+
+/* Footer */
+footer {
+    background-color: #008080 !important;
+}
